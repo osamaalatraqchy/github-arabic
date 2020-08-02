@@ -11,6 +11,8 @@ class InsertID extends StatefulWidget{
 class InsertIDState extends State<InsertID>{
   //change it to database......
   var database = SharedPreferences.getInstance();
+  //edit here by osama
+  bool loading = false;
 
   saveID(int c) async{
     var pref = await db;
