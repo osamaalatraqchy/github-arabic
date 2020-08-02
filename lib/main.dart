@@ -9,7 +9,8 @@ class InsertID extends StatefulWidget{
   }
 }
 class InsertIDState extends State<InsertID>{
-  var db = SharedPreferences.getInstance();
+  //change it to database......
+  var database = SharedPreferences.getInstance();
 
   saveID(int c) async{
     var pref = await db;
